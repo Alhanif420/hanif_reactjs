@@ -7,6 +7,7 @@ import axios from 'axios';
 import MovieCard from "./MovieCard";
 import MovieForms from "./MovieForms";
 import Image from "next/image";
+import MovieSlide from './MovieSlide';
 
 export default function Home() {
   
@@ -38,6 +39,7 @@ export default function Home() {
       </div>
   <div className='bg-danger' >
         <MovieCard/>
+        <MovieSlide />
         </div>
          </div>
   );
